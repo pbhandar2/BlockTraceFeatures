@@ -5,7 +5,8 @@ This repository contains features generated from publicly available block traces
 2. Tencent 
 3. MSR 
 
-The following features are generated for 30 minute intervals. 
+## Features
+The following features are generated at 30 minute intervals. 
 
 1. block_req_count: number of block requests 
 2. read_block_req_count: number of read block requests 
