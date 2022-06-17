@@ -14,3 +14,9 @@ The following features are generated at 30 minute intervals.
 4. page_access_count: number of page accessed 
 5. read_page_access_count: number of pages read 
 6. write_page_access_count: number of pages written 
+
+
+| Feature      | Description |
+| ----------- | ----------- |
+| block_req_count      | number of block requests     |
+| read_block_req_count   | number of  read block requests |
