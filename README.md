@@ -14,3 +14,8 @@ The following features are generated at 30 minute intervals.
 | block_req_count        | number of block requests       |
 | read_block_req_count   | number of  read block requests |
 | write_block_req_count  | number of write block requests |
+| seq_count             | number of sequential block requests | 
+| read_seq_count | number of sequentiral read block requests |
+| write_seq_count | number of sequential write block requests |
+| range | the difference between the maximum and minimum byte offset accessed | 
+
