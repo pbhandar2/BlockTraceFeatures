@@ -17,6 +17,10 @@ Given a block trace, size of a Logical Block Address (LBA) and the size of a pag
 | io_request_size_sum         | byte   | Done   | total IO requested               |
 | read_io_request_size_sum    | byte   | Done   | total read IO requested          |
 | write_io_request_size_sum   | byte   | Done   | total write IO requested         |
+| page_access_count        | - | Done   | number of pages accessed |
+| read_page_access_count   | - | Done   | pages read               |
+| write_page_access_count  | - | Done   | pages written            |
+
 
 
 <!-- 
