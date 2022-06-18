@@ -18,7 +18,7 @@ Given a block trace, size of a Logical Block Address (LBA) and the size of a pag
 | read_io_size           | total read IO requested        | byte |
 | write_io_size.         | total write IO requested       | byte |
 
-
+<!-- 
 | block_req_count_split  | fraction of block requests that were writes | ratio |
 | seq_count             | number of sequential block requests | frequency |
 | read_seq_count | number of sequentiral read block requests | frequency |
@@ -33,7 +33,7 @@ Given a block trace, size of a Logical Block Address (LBA) and the size of a pag
 | misaligned_request_split | the fraction of block requests that were not page aligned | bytes |
 | read_misaligned_request_split | the fraction of read block requests that were not page aligned | ratio |
 | write_misaligned_request_split | the fraction of write block requests that were not page aligned | ratio |
-| range | the difference between the maximum and minimum byte offset accessed | byte |
+| range | the difference between the maximum and minimum byte offset accessed | byte | -->
 
 
 
