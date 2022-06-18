@@ -9,11 +9,16 @@ This repository contains features generated from publicly available block traces
 Given a block trace, size of a Logical Block Address (LBA) and the size of a page the following features are generated at 30 minute intervals. 
 
 
-| Feature      | Description | Unit |
-| ----------- | ----------- | ------- |
-| block_req_count        | number of block requests       | frequency |
-| read_block_req_count   | number of  read block requests | frequency |
-| write_block_req_count  | number of write block requests | frequency |
+| Feature                | Description                    | Unit |
+| ---------------------- | ------------------------------ |  |
+| block_req_count        | number of block requests       |  |
+| read_block_req_count   | number of  read block requests |  |
+| write_block_req_count  | number of write block requests |  |
+| io_size                | total IO requested             | byte |
+| read_io_size           | total read IO requested        | byte |
+| write_io_size.         | total write IO requested       | byte |
+
+
 | block_req_count_split  | fraction of block requests that were writes | ratio |
 | seq_count             | number of sequential block requests | frequency |
 | read_seq_count | number of sequentiral read block requests | frequency |
