@@ -34,9 +34,9 @@ Given a block trace, size of a Logical Block Address (LBA) and the size of a pag
 | misalignment_sum                       | byte | Done   | the sum of bytes by which block requests were not page aligned                |
 | read_misalignment_sum                  | byte | Done   | the sum of bytes by which read block requests were not page aligned           |
 | write_misalignment_sum                 | byte | Done   | the sum of bytes by which write block requests were not page aligned          |                
-| page working set size                  | byte | Done   | the size of the set of unique pages accessed                                  |  
-| read page working set size             | byte | Done   | the size of the set of unique pages read                                      |  
-| write page working set size            | byte | Done   | the size of the set of unique pages written                                   | 
+| page_working_set_size                  | byte | Done   | the size of the set of unique pages accessed                                  |  
+| read_page_working_set_size             | byte | Done   | the size of the set of unique pages read                                      |  
+| write_page_working_set_size            | byte | Done   | the size of the set of unique pages written                                   | 
 | write_page_working_set_size_split      | -    | Done   | fraction of the working set size where data is written                        |
 | percentile_read_block_request_size     | byte | Done   | Percentiles {1,5,10 .. 100} of read block request sizes                       |
 | percentile_write_block_request_size    | byte | Done   | Percentiles {1,5,10 .. 100} of write block request sizes                      |
