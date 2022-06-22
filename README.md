@@ -33,12 +33,7 @@ Given a block trace, size of a Logical Block Address (LBA) and the size of a pag
 | write_range                            | byte | Done   | difference between the maximum and minimum byte offset written                |
 | misalignment_sum                       | byte | Done   | the sum of bytes by which block requests were not page aligned                |
 | read_misalignment_sum                  | byte | Done   | the sum of bytes by which read block requests were not page aligned           |
-| write_misalignment_sum                 | byte | Done   | the sum of bytes by which write block requests were not page aligned          |
-| block_working_set_size                 | byte | Done   | the size of the set of unique blocks accessed                                 |
-| read_block_working_set_size            | byte | Done   | the size of the set of unique blocks read                                     |
-| write_block_working_set_size           | byte | Done   | the size of the set of unique blocks written                                  |
-| overlap_block_working_set_size         | byte | Done   | the size of the set of unique blocks read and written                         |  
-| write_block_working_set_size_split     | -    | Done   | fraction of the working set size where data is written                        |  
+| write_misalignment_sum                 | byte | Done   | the sum of bytes by which write block requests were not page aligned          |                
 | page working set size                  | byte | Done   | the size of the set of unique pages accessed                                  |  
 | read page working set size             | byte | Done   | the size of the set of unique pages read                                      |  
 | write page working set size            | byte | Done   | the size of the set of unique pages written                                   | 
