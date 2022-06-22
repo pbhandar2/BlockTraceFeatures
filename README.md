@@ -38,11 +38,11 @@ Given a block trace, size of a Logical Block Address (LBA) and the size of a pag
 | read_page_working_set_size             | byte | Done   | the size of the set of unique pages read                                      |  
 | write_page_working_set_size            | byte | Done   | the size of the set of unique pages written                                   | 
 | write_page_working_set_size_split      | -    | Done   | fraction of the working set size where data is written                        |
+| percentile_read_page_popularity        | -    | Done   | Percentiles {1,5,10 .. 100} of the popularity of top-N% popular read pages    |  
+| percentile_write_page_popularity       | -    | Done   | Percentiles {1,5,10 .. 100} of the popularity of top-N% popular write pages   |
 | percentile_read_block_request_size     | byte | Done   | Percentiles {1,5,10 .. 100} of read block request sizes                       |
 | percentile_write_block_request_size    | byte | Done   | Percentiles {1,5,10 .. 100} of write block request sizes                      |
 | percentile_jump_distance               | byte | Done   | Percentiles {1,5,10 .. 100} of the jump distance between block requests       |
-| percentile_read_page_popularity        | -    | Done   | Percentiles {1,5,10 .. 100} of the popularity of top-N% popular read pages    |  
-| percentile_write_page_popularity       | -    | Done   | Percentiles {1,5,10 .. 100} of the popularity of top-N% popular write pages   |
 | percentile_scan_length                 | byte | Done   | Percentiles {1,5,10 .. 100} of the length of scans (new item or cache writes) |  
 | percentile_change_in_object_popularity | -    | Done   | Percentiles {1,5,10 .. 100} of the change in popularity from 5 time windows   |
 
