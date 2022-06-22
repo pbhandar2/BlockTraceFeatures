@@ -44,5 +44,6 @@ Given a block trace, size of a Logical Block Address (LBA) and the size of a pag
 | percentile_write_block_request_size    | byte | Done   | Percentiles {1,5,10 .. 100} of write block request sizes                      |
 | percentile_jump_distance               | byte | Done   | Percentiles {1,5,10 .. 100} of the jump distance between block requests       |
 | percentile_scan_length                 | byte | Done   | Percentiles {1,5,10 .. 100} of the length of scans (new item or cache writes) |  
-| percentile_change_in_object_popularity | -    | Done   | Percentiles {1,5,10 .. 100} of the change in popularity from 5 time windows   |
+| percentile_delta_read_page_popularity  | -    | Done   | Percentiles {1,5,10 .. 100} of the change in popularity from 5 time windows   |
+| percentile_delta_write_page_popularity | -    | Done   | Percentiles {1,5,10 .. 100} of the change in popularity from 5 time windows   |
 
