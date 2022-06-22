@@ -43,6 +43,6 @@ Given a block trace, size of a Logical Block Address (LBA) and the size of a pag
 | p_read_block_request_size         | byte | Done   | Percentiles(p)={1,5,10 .. 100} of read block request sizes                               |
 | p_write_block_request_size        | byte | Done   | Percentiles(p)={1,5,10 .. 100} of write block request sizes                              |
 | p_jump_distance                   | byte | Done   | Percentiles(p)={1,5,10 .. 100} of the jump distance between block requests               |
-| p_scan_length                     | byte | Done   | Percentiles(p)={1,5,10 .. 100} of the length of scans (new item or cache writes)         |  
+| p_scan_length                     | -    | Done   | Percentiles(p)={1,5,10 .. 100} of the length of scans (new item or cache writes)         |  
 | p_delta_read_page_popularity      | -    | Done   | Percentiles(p)={1,5,10 .. 100} of the change in popularity of pages from previous window |
 | p_delta_write_page_popularity     | -    | Done   | Percentiles(p)={1,5,10 .. 100} of the change in popularity of pages from previous window |
